@@ -5,4 +5,13 @@ A patient’s journey is often not straightforward. For example, a patient with 
 
 Using claims data and association rules, we can uncover the most common sequence of events.
 
-**WARNING: sequential pattern mining and association rules are actually different. cSPADE from R can handle temporal data. But packages such as apriori and association rules from python DOES NOT take into account temporal information.
+**WARNING: sequential pattern mining and association rules are actually different. cSPADE from R can handle temporal data. But packages such as apriori and association rules from python DOES NOT take into account temporal information.**
+
+R file and outputs:
+sequential_pattern_mining_ra.R
+top_results.csv
+all_results.csv
+
+Python file and output:
+association_rules.ipynb
+association_rules_results.csv
